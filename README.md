@@ -1,5 +1,11 @@
 # MovieRecommender
 
+[![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/MartinKondor/MovieRecommender/)
+[![version](https://img.shields.io/badge/version-2019.07-brightgreen.svg)](https://github.com/MartinKondor/MovieRecommender)
+[![GitHub Issues](https://img.shields.io/github/issues/MartinKondor/MovieRecommender.svg)](https://github.com/MartinKondor/MovieRecommender/issues)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Movie recommender AI. Trained on the [MovieLens](https://grouplens.org/datasets/movielens/) dataset.
 
 ## Getting Started
@@ -18,15 +24,9 @@ Dowload and install the dependencies with the command:
 $ python -m pip install -r requirements.txt
 ```
 
-#### Training
+## Usage
 
-_Training oberwrites the files in the `trained` directory._
-
-To train the model you should run:
-
-```
-$ python trainer.py
-```
+_TODO_
 
 ## Contributing
 
