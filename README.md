@@ -24,9 +24,14 @@ Dowload and install the dependencies with the command:
 $ python -m pip install -r requirements.txt
 ```
 
-## Usage
+### Usage
 
-_TODO_
+Examples:
+
+```
+$ python rmovie.py "Toy Story (1995)"
+$ python rmovie.py "John Wick (2014)"
+```
 
 ## Contributing
 
