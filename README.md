@@ -51,6 +51,8 @@ This project is open for any kind of contribution from anyone.
 
 * **[Martin Kondor](https://github.com/MartinKondor)**
 
+<p align="center"><a href="https://www.patreon.com/bePatron?u=17006186" data-patreon-widget-type="become-patron-button"><img width="222" class="img-responsive" alt="Become a Patron!" title="Become a Patron!" src="https://martinkondor.github.io/img/become_a_patron_button.png"></a></p>
+
 # License
 
 See the [LICENSE](LICENSE) file for details.
