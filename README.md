@@ -30,11 +30,21 @@ $ python -m pip install -r requirements.txt
 
 ### Usage
 
+You have to run the python file, and give the liked movie's title as an argument:
+```
+$ python rmovie.py "MOVIE TITLE"
+```
+
+You can also specify the year in which the movie was released, in this case, you have to put the year in brackets in the same first argument:
+```
+$ python rmovie.py "MOVIE TITLE (YEAR)"
+```
+
 * Works with any case (lower or upper)
 * The word "the" is always ignored
 * You can put the year of the movie inside brackets like: (2020)
 
-Examples:
+Valid request examples:
 
 ```
 $ python rmovie.py "Shawshank Redemption"
@@ -67,10 +77,8 @@ This project is open for any kind of contribution from anyone.
 </a>
 </p>
 
-<p align="center"><a href="https://www.patreon.com/bePatron?u=17006186" data-patreon-widget-type="become-patron-button"><img width="222" class="img-responsive" alt="Become a Patron!" title="Become a Patron!" src="https://martinkondor.github.io/img/become_a_patron_button.png"></a></p>
-
 # License
 
-Copyright (C) 2020 Martin Kondor.
+Copyright (C) 2022 Martin Kondor.
 
 See the [LICENSE](LICENSE) file for details.
