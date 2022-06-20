@@ -1,7 +1,12 @@
 'use strict';
 (function ($) {
     // Prepare data
-    
+
+    // Download data 
+    $.getJSON("https://martinkondor.github.io/MovieRecommender/data/json/movies.json", function (data) {
+        console.log(data);
+    });
+
     // / Prepare data
 
     function search(title) {
