@@ -5,7 +5,7 @@
 # 🎬 MovieRecommender
 
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/MartinKondor/MovieRecommender/)
-[![version](https://img.shields.io/badge/version-2020.01-brightgreen.svg)](https://github.com/MartinKondor/MovieRecommender)
+[![version](https://img.shields.io/badge/version-2022.06-brightgreen.svg)](https://github.com/MartinKondor/MovieRecommender)
 [![GitHub Issues](https://img.shields.io/github/issues/MartinKondor/MovieRecommender.svg)](https://github.com/MartinKondor/MovieRecommender/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -29,6 +29,8 @@ $ python -m pip install -r requirements.txt
 ```
 
 ### Usage
+
+Try it online: [https://martinkondor.github.io/MovieRecommender/](https://martinkondor.github.io/MovieRecommender/).
 
 You have to run the python file, and give the liked movie's title as an argument:
 ```
