@@ -2,6 +2,7 @@
 (function ($) {
     // Prepare data
     function resetUI() {
+        $("#emptyText").css("display", "none");
         $("#weFoundNothing").css("display", "none");
         $("#didYouMeanTitle").css("display", "none");
         $("#choosenMovie").css("display", "none");
@@ -107,17 +108,24 @@
         let index = 0;
         for (let m of recommendedMovies) {
             $("#movie-list").html($("#movie-list").html() + `
-                <div id="movie-${index}" class="movie-li" title="Recommend similar to ${m[1]}">
+                <div id="movie-${index}" class="movie-li" title="${m[1]}">
                     ${m[1]}
                 </div>
             `);
 
+            console.log(m);
+
             // Recommend similar to the choosen movie
-            $("#movie-list").on("click", `#movie-${index}`, createMovieCallback(df, index, m[1]));
+            // $("#movie-list").on("click", `#movie-${index}`, createMovieCallback(df, index, m[1]));
+            $("#movie-list").on("click", `#movie-${index}`, function () {});  // Remove old listeners
+            $(`#movie-${index}`).css("pointer-events", "none");
+            $(`#movie-${index}`).css("cursor", "pointer");
 
             index++;
         }
 
+        $("#title").val(title);
+        $("#year").val("");
         $("#loaderSign").hide();
     }
 
@@ -239,5 +247,6 @@
     });
 
     resetUI();
+    $("#emptyText").css("display", "block");
 
 })(jQuery);

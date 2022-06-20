@@ -18,7 +18,7 @@ button {
 
 #box {
     width: 40%;
-    min-height: 50%;
+    min-height: 30%;
     padding: 40px 40px 25px 40px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.222);
     border-radius: 10px;

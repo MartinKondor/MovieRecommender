@@ -35,16 +35,24 @@
     <div class="container-fluid text-center mt-1">
 
         <h1 class="font-weight-bold h2 mt-4 mb-4">
-            🎬 Movie Recommender
+            <a href="/" style="text-decoration: none; color: white;">🎬 Movie Recommender</a>
         </h1>
 
         <div id="box">
-            <input id="title" type="text" class="form-control" placeholder="Type in a movie's title you like..." required="">
-            <input id="year" type="text" class="form-control mt-2" placeholder="In what year it was released? (Optional)" minlength="4" style="display: none;">
-            <button id="submit" type="submit" class="btn btn-primary mt-2 btn-block text-uppercase">Recommend Movies!</button>
+            <form action="#">
+                <input id="title" type="text" class="form-control" placeholder="Type in a movie's title you liked watching (e. g. cars, inception, titanic)" required="">
+                <input id="year" type="text" class="form-control mt-2" placeholder="In what year it was released? (Optional)" minlength="4" style="display: none;">
+                <button id="submit" type="submit" class="btn btn-primary mt-2 btn-block text-uppercase">Recommend Movies!</button>
+            </form>
             <hr>
 
             <div id="box-list" class="mt-4">
+
+                <p id="emptyText" class="text-muted mt-5">
+                    <i>
+                        The movies recommended for you will appear here...
+                    </i>
+                </p>
 
                 <h3 id="didYouMeanTitle" class="text-uppercase font-weight-bold mb-4">
                     Did you mean ...?
