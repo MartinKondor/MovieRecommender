@@ -102,18 +102,19 @@
             }
         }
 
-        // 
-
         // Adding recommendedMovies to html
+        let alreadyUsedMovieTitles = [];
         let index = 0;
+
         for (let m of recommendedMovies) {
+            if (alreadyUsedMovieTitles.includes(m[1])) continue;
+            alreadyUsedMovieTitles.push(m[1]);
+
             $("#movie-list").html($("#movie-list").html() + `
                 <div id="movie-${index}" class="movie-li" title="${m[1]}">
                     ${m[1]}
                 </div>
             `);
-
-            console.log(m);
 
             // Recommend similar to the choosen movie
             // $("#movie-list").on("click", `#movie-${index}`, createMovieCallback(df, index, m[1]));

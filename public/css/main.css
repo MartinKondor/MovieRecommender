@@ -6,9 +6,10 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background: #fff;
     color: #fff;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.522);
+    background: url('../img/andreas-gabler-XEW_Wd4240c-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 label,
@@ -19,12 +20,13 @@ button {
 #box {
     width: 40%;
     min-height: 30%;
-    padding: 40px 40px 25px 40px;
+    padding: 40px 40px 5px 40px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.222);
     border-radius: 10px;
     background-color: #fffffffb;
     margin: 0 auto;
     z-index: 1;
+    color: #222222;
 }
 
 #weFoundNothing {
@@ -40,7 +42,7 @@ button {
 }
 
 #box-list {
-    color: black;
+    color: #000;
     text-shadow: none;
 }
 
@@ -77,8 +79,7 @@ button {
 
     #box {
         width: 60% !important;
-        height: 75% !important;
-        padding: 20px 20px 10px 20px;
+        padding: 20px 20px 5px 20px;
     }
 }
 
@@ -88,8 +89,7 @@ button {
     }
 
     #box {
-        width: 90% !important;
-        height: 90% !important;
+        width: 95% !important;
     }
 }
 
@@ -98,7 +98,7 @@ button {
     height: 100vh;
     display: flex;
     background-size: 300% 300%;
-    background-image: linear-gradient(-45deg, #43C6AC 0%, #329fca 100%);
+    background-image: linear-gradient(-45deg, #3493e6b2 0%, #EC6EADb2 100%);
     -webkit-animation: AnimateBG 10s ease infinite;
             animation: AnimateBG 10s ease infinite;
 }
