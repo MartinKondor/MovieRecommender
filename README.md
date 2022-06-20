@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/img/readme.gif" width="700">
+    <img src="docs/img/readme2.gif" width="700">
 </p>
 
 # 🎬 MovieRecommender
@@ -11,6 +11,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Movie recommender AI. Trained on the [MovieLens](https://grouplens.org/datasets/movielens/) dataset.
+
+[https://martinkondor.github.io/MovieRecommender/](https://martinkondor.github.io/MovieRecommender/)
 
 ## Getting Started
 
@@ -30,9 +32,9 @@ $ python -m pip install -r requirements.txt
 
 ### Usage
 
-Try it online: [https://martinkondor.github.io/MovieRecommender/](https://martinkondor.github.io/MovieRecommender/).
+__You can try it online: [https://martinkondor.github.io/MovieRecommender/](https://martinkondor.github.io/MovieRecommender/).__
 
-You have to run the python file, and give the liked movie's title as an argument:
+__Or You have to run the python file, and give the liked movie's title as an argument:__
 ```
 $ python rmovie.py "MOVIE TITLE"
 ```
@@ -41,6 +43,10 @@ You can also specify the year in which the movie was released, in this case, you
 ```
 $ python rmovie.py "MOVIE TITLE (YEAR)"
 ```
+
+<p align="center">
+    <img src="docs/img/readme.gif" width="700">
+</p>
 
 * Works with any case (lower or upper)
 * The word "the" is always ignored
